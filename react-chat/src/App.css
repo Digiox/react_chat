@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+.App {
+  text-align: center;
+
+  height: 100%;
+}
+html, body{
+  overflow: hidden;
+  height: 100%;
+}
+#root {
+  height: 100%;
+  overflow: hidden;
+  background-color: #09d3ac;
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.loginTitle{
+  padding: 3%;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: 'Indie Flower', cursive;
+}
+.loginPage{
+  text-align: center;
+  background-color: #09d3ac;
+  height: 100%;
+}
+.loginSection{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13%;
+  width: 25%;
+
+  background-color: #09d3ac;
+  box-shadow:  0.535rem 0.535rem 0.535rem  0.535rem rgba(0,0,0,0.05);
+ 
+  padding: 5%;
+}
+.loginSection:hover{
+ 
+    box-shadow:  0.235rem 0.235rem 0.235rem  00.235rem rgba(0,0,0,0.05);
+}
+.chatPart{
+  text-align: initial;
+
+height: 50%;
+margin: auto;
+width: 50%;
+background-color: white
+}
+.chatComponent{ 
+  
+  text-align: center;
+  height: 100%;
+  
+}
+.fixedBottom{
+  position: sticky;
+  width: 100%;
+  top: 100%;
+}
+.chat{
+  width: 50%;
+}
+.chatContainer{
+height: 100%;
+overflow: scroll;
+width: 100%;
+}
