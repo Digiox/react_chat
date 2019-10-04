@@ -80,7 +80,16 @@ background-color: white
   width: 50%;
 }
 .chatContainer{
+  overflow-x: hidden;
 height: 100%;
-overflow: scroll;
+overflow-y: scroll;
 width: 100%;
+}
+.mainSection{
+  height: 100%;
+  display: flex
+}
+.userList{
+
+
 }
